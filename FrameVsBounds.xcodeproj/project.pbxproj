@@ -51,10 +51,8 @@
 		0B8B547A2C8661C100A7E737 /* FrameVsBounds */ = {
 			isa = PBXGroup;
 			children = (
-				0B8B547B2C8661C100A7E737 /* FrameVsBoundsApp.swift */,
+				0B8B54892C8661E400A7E737 /* App */,
 				0B8B547D2C8661C100A7E737 /* ContentView.swift */,
-				0B8B547F2C8661C300A7E737 /* Assets.xcassets */,
-				0B8B54812C8661C300A7E737 /* Preview Content */,
 			);
 			path = FrameVsBounds;
 			sourceTree = "<group>";
@@ -65,6 +63,16 @@
 				0B8B54822C8661C300A7E737 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B8B54892C8661E400A7E737 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0B8B547B2C8661C100A7E737 /* FrameVsBoundsApp.swift */,
+				0B8B547F2C8661C300A7E737 /* Assets.xcassets */,
+				0B8B54812C8661C300A7E737 /* Preview Content */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +279,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FrameVsBounds/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FrameVsBounds/App/Preview Content\"";
 				DEVELOPMENT_TEAM = GXTTT546U8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FrameVsBounds/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FrameVsBounds/App/Preview Content\"";
 				DEVELOPMENT_TEAM = GXTTT546U8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
