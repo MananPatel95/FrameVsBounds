@@ -1,5 +1,20 @@
 import SwiftUI
 
+//    1. What is frame and bounds?
+//    - Frame: View's position and size in superview's coordinate system.
+//    - Bounds: View's internal dimensions in its own coordinate system.
+//
+//    2. Frame and bounds x,y differ when:
+//    - View is rotated/scaled
+//    - View is in a scrolling context
+//    - Manipulating Core Animation layers
+//
+//    3. Frame and bounds height/width differ when:
+//    - View is rotated
+//    - Using scale transforms
+//    - View has non-zero contentInset
+//    - In scroll views (visible area vs. total size)
+
 struct ContentView: View {
     @State private var rotation: Double = 0
     @State private var frameRect: CGRect = .zero
